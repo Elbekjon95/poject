@@ -1,0 +1,77 @@
+@import 'fonts.css' ;
+
+:root {
+    --m-b: 'Montserrat-Black';
+    --m-r:'Montserrat-Regular';
+    --m-bold:'Montserrat-Bold';
+    --white:#ffffff;
+    --green:#68bf3b;
+    --col-1: calc(100% / 12 *1);
+    --col-2: calc(100% / 12 *2);
+    --col-3: calc(100% / 12 *3);
+    --col-4: calc(100% / 12 *4);
+    --col-5: calc(100% / 12 *5);
+    --col-6: calc(100% / 12 *6);
+    --col-7: calc(100% / 12 *7);
+    --col-8: calc(100% / 12 *8);
+    --col-9: calc(100% / 12 *9);
+    --col-10: calc(100% / 12 *10);
+    --col-11: calc(100% / 12 *11);
+    --col-12: calc(100% / 12 *12);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    background: url(../img/header_bg.jpg);
+    height: 100vh;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+    padding:0 15px;
+}
+
+.col-12 {
+    width: var(--col-12);
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.j-c-b {
+    justify-content: space-between;
+}
+.j-c-s {
+    justify-content: flex-start;
+}
+.j-c-c {
+    justify-content: center;
+}
+.j-c-e {
+    justify-content: flex-end;
+}
+.a-i-c {
+    align-items: center;
+}
+.a-i-s {
+    align-items:flex-start;
+}
+
+.f-c {
+    flex-direction: column;
+}
+.f-g-1 {
+    flex-grow: 1;
+}
